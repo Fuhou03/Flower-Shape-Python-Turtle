@@ -9,18 +9,19 @@
 5. You can start off by trying to create a parallelogram. 
    I used a loop that loops twice so 4 lines are created instead of 2, to create the first parallelogram.
 
-**Add these lines next**  
-for i in range(2):
-   line.forward(100)
-   line.right(60)
-   line.forward(100)
-   line.right(120)
+**Add these lines next**
+
+    for i in range(2):
+      line.forward(100)
+      line.right(60)
+      line.forward(100)
+      line.right(120)
    
  5. Next, in order to create an identical parallelogram but in another direction, you will need to put the existing loop inside another loop.
  6. Above the *for i in range(2)* line, place this line: *for i in range(10)* and indent everything below it. This will create 10 parallelograms 
     altogether, instead of just 1.
  7. To make each parallelogram go in a slightly different direction, add this line below the second for loop:  
-    *line.right(36)*
+     line.right(36)
  
  8. To finish the code, write *turtle.done()* at the end.
  
